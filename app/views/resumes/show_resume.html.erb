@@ -1,5 +1,7 @@
 <h1><%= @resume[:name] %></h1>
 <h3><%= @resume[:email] %></h3>
+<h3><%= link_to "My GitHub", "https://github.com/erlaroche" %>
+<h3><%= link_to "My LinkedIn", "http://www.linkedin.com/pub/emma-laroche/3a/111/8b9" %>
 
 <h4><%= @resume[:tech] %></h4>
 
@@ -36,7 +38,7 @@
 <h4>Pub Crawl Application</h4>
 <li>Role: Built a Responsive mobile site both aesthetically pleasing and user friendly utilizing HTML5, CSS3, Bootstrap, and Ruby on Rails</li>
 <li>Info: Functional after 16 hours of programming with 2 partners</li>
-<li>Links: https://github.com/elaroche/crawl</li>
+<li>Links: <%= link_to "Pub Crawl", "https://github.com/erlaroche/crawl" %></li>
 
 <h4>House Sitter App</h4>
 <li>Role: Building a Responsive mobile site both aesthetically pleasing and user friendly utilizing HTML5, CSS3, Foundation, SASS, JavaScript, Unicorn, and Ruby on Rails</li>
