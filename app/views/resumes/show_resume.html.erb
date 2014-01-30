@@ -1,14 +1,14 @@
-<h1><%= @name %></h1>
-<h3><%= @email %></h3>
+<h1><%= @resume[:name] %></h1>
+<h3><%= @resume[:email] %></h3>
 
-<h4>TECHNOLOGY</h4>
+<h4><%= @resume[:tech] %></h4>
 
-<li>Server-side: Ruby on Rails, Active Record, Data Modeling, Controller logic, ERB & HAML templating, User Authentication with RSPEC</li>
+<li><%= @resume[:server] %></li>
 
-<li>Client-side: Javascript, jQuery, Bootstrap, Foundation, SASS, CSS3, HTML5, AJAX, AND JSON</li>
+<li><%= @resume[:client] %></li>
 
 
-<h3>SKILLS SUMMARY</h3>
+<h3><%= @resume[:skills] %></h3>
 
 <li>Strong public communication skills, well organized, excellent time management, capable of working well independently or in a collaborative group
 </li>
