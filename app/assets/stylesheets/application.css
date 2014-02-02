@@ -12,8 +12,57 @@
  *= require_tree .
  */
 
-h1, h3, h4, li, p {
+
+h1 {
   text-align: center;
   font-family: 'Arapey', serif;
+  font-weight: bold;
+  font-size: 50px;
 }
+
+h3 {
+  text-align: center;
+  font-family: 'Arapey', serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Arapey', serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+li {
+  text-align: center;
+  font-family: 'Arapey', serif;
+  // font-weight: bold;
+  font-size: 25px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Arapey', serif;
+  // font-weight: bold;
+  font-size: 25px;
+}
+
+body {
+  width: 100%;
+  background-color: #A9E2F3;
+  /*background-image: url(assets/blurred_background.jpg) no-repeat;*/
+  min-height: 1280px; // to make it full-screen top to bottom on most screens
+  background-size: cover; //this resizes the background for any screen size
+  padding: 6em 0em; //give it some breathing room from the top
+}
+
+//////////background image in progress///////////
+// .row{
+//   width: 100%;
+//   background: url( asset-path('assets/blurred_background.jpg', image) ) no-repeat;
+//   min-height: 680px; // to make it full-screen top to bottom on most screens
+//   background-size: cover; //this resizes the background for any screen size
+//   padding: 6em 0em; //give it some breathing room from the top
+// }
  

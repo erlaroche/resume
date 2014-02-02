@@ -1,46 +1,52 @@
-<h1><%= @resume[:name] %></h1>
-<h3><%= @resume[:email] %></h3>
-<h3><%= link_to "My GitHub", "https://github.com/erlaroche" %>
-<h3><%= link_to "My LinkedIn", "http://www.linkedin.com/pub/emma-laroche/3a/111/8b9" %>
+<div class = "row">
+  <div class = "large-12 medium-6 small- 10 small-centered columns">
+    <span class = "resume">
+      <h1><%= @resume[:name] %></h1>
+    <h3><%= @resume[:email] %></h3>
+    <h3><%= link_to "My GitHub", "https://github.com/erlaroche" %>
+    <h3><%= link_to "My LinkedIn", "http://www.linkedin.com/pub/emma-laroche/3a/111/8b9" %>
 
-<h4><%= @resume[:tech] %></h4>
+    <h3><%= @resume[:tech] %></h3>
 
-<li><%= @resume[:server] %></li>
+    <li><%= @resume[:server] %></li>
 
-<li><%= @resume[:client] %></li>
-
-
-<h3><%= @resume[:skills] %></h3>
-
-<li><%= @resume[:skill_1] %>
-</li>
-
-<li><%= @resume[:skill_2] %></li>
-
-<h3><%= @resume[:edu] %></h3>
-<h4><%= @resume[:ms] %></h4>
-
-<p>Full-Stack Web Development,          Graduated: Jan 2014</p>
-<p><%= @resume[:location] %></p>
-
-<h4><%= @resume[:big_sam] %></h4>
-
-<p><%= @resume[:degree] %></p>
-<p><%= @resume[:edu_location] %></p>
+    <li><%= @resume[:client] %></li>
 
 
-<h3><%= @resume[:experience] %></h3>
-<h4><%= @resume[:msstd] %></h4>
-<p><%= @resume[:aboutms] %></p>
-<p>Completed two weekend long hackathons</p>
+    <h3><%= @resume[:skills] %></h3>
 
-<h3>Projects</h3>
-<h4>Pub Crawl Application</h4>
-<li>Role: Built a Responsive mobile site both aesthetically pleasing and user friendly utilizing HTML5, CSS3, Bootstrap, and Ruby on Rails</li>
-<li>Info: Functional after 16 hours of programming with 2 partners</li>
-<li>Links: <%= link_to "Pub Crawl", "https://github.com/erlaroche/crawl" %></li>
+    <li><%= @resume[:skill_1] %>
+    </li>
 
-<h4>House Sitter App</h4>
-<li>Role: Building a Responsive mobile site both aesthetically pleasing and user friendly utilizing HTML5, CSS3, Foundation, SASS, JavaScript, Unicorn, and Ruby on Rails</li>
-<li>Info: Functional after 120 of programming with 2 partners</li>
-<li>Links: <%= link_to "Sit4U", "https://github.com/erlaroche/Home_Sit" %></li>
+    <li><%= @resume[:skill_2] %></li>
+
+    <h3><%= @resume[:edu] %></h3>
+    <h4><%= @resume[:ms] %></h4>
+
+    <p>Full-Stack Web Development,          Graduated: Jan 2014</p>
+    <p><%= @resume[:location] %></p>
+
+    <h4><%= @resume[:big_sam] %></h4>
+
+    <p><%= @resume[:degree] %></p>
+    <p><%= @resume[:edu_location] %></p>
+
+
+    <h3><%= @resume[:experience] %></h3>
+    <h4><%= @resume[:msstd] %></h4>
+    <p><%= @resume[:aboutms] %></p>
+    <p>Completed two weekend long hackathons</p>
+
+    <h3>Projects</h3>
+    <h4>Pub Crawl Application</h4>
+    <li>Role: Built a Responsive mobile site both aesthetically pleasing and user friendly utilizing HTML5, CSS3, Bootstrap, and Ruby on Rails</li>
+    <li>Info: Functional after 16 hours of programming with 2 partners</li>
+    <li>Links: <%= link_to "Pub Crawl", "https://github.com/erlaroche/crawl" %></li>
+
+    <h4>House Sitter App</h4>
+    <li>Role: Building a Responsive mobile site both aesthetically pleasing and user friendly utilizing HTML5, CSS3, Foundation, SASS, JavaScript, Unicorn, and Ruby on Rails</li>
+    <li>Info: Functional after 120 of programming with 2 partners</li>
+    <li>Links: <%= link_to "Sit4U", "https://github.com/erlaroche/Home_Sit" %></li>
+    </span>
+  </div>
+</div>
