@@ -1,24 +1,30 @@
 <div class = "row">
-  <div class = "large-12 medium-6 small- 10 small-centered columns">
-    <span class = "resume">
+  <div data-stellar-ratio="2" class = "large-12 medium-6 small- 10 small-centered columns">
       <h1><%= @resume[:name] %></h1>
-    <h3><%= @resume[:email] %></h3>
-    <h3><%= link_to "My GitHub", "https://github.com/erlaroche" %>
-    <h3><%= link_to "My LinkedIn", "http://www.linkedin.com/pub/emma-laroche/3a/111/8b9" %>
-
-    <h3><%= @resume[:tech] %></h3>
-
-    <li><%= @resume[:server] %></li>
-
-    <li><%= @resume[:client] %></li>
+      <h3><%= @resume[:email] %></h3>
+      <h3><%= link_to "My GitHub", "https://github.com/erlaroche" %>
+      <h3><%= link_to "My LinkedIn", "http://www.linkedin.com/pub/emma-laroche/3a/111/8b9" %>
+    </div>
 
 
-    <h3><%= @resume[:skills] %></h3>
+    <div class = "large-12 medium-6 small- 10 small-centered columns">
+      <h3><%= @resume[:tech] %></h3>
 
-    <li><%= @resume[:skill_1] %>
-    </li>
+      <li><%= @resume[:server] %></li>
 
-    <li><%= @resume[:skill_2] %></li>
+      <li><%= @resume[:client] %></li>
+
+
+      <h3><%= @resume[:skills] %></h3>
+
+      <li><%= @resume[:skill_1] %>
+      </li>
+
+      <li><%= @resume[:skill_2] %></li>
+  </div>
+
+
+  <div class = "large-12 medium-6 small- 10 small-centered columns">
 
     <h3><%= @resume[:edu] %></h3>
     <h4><%= @resume[:ms] %></h4>
@@ -31,7 +37,10 @@
     <p><%= @resume[:degree] %></p>
     <p><%= @resume[:edu_location] %></p>
 
+  </div>
 
+
+  <div class = "large-12 medium-6 small- 10 small-centered columns">
     <h3><%= @resume[:experience] %></h3>
     <h4><%= @resume[:msstd] %></h4>
     <p><%= @resume[:aboutms] %></p>
@@ -47,6 +56,6 @@
     <li>Role: Building a Responsive mobile site both aesthetically pleasing and user friendly utilizing HTML5, CSS3, Foundation, SASS, JavaScript, Unicorn, and Ruby on Rails</li>
     <li>Info: Functional after 120 of programming with 2 partners</li>
     <li>Links: <%= link_to "Sit4U", "https://github.com/erlaroche/Home_Sit" %></li>
-    </span>
+    
   </div>
 </div>
