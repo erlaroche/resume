@@ -1,26 +1,34 @@
 <div class = "row">
-  <div data-stellar-ratio="2" class = "large-12 medium-6 small- 10 small-centered columns">
-      <h1><%= @resume[:name] %></h1>
-      <h3><%= @resume[:email] %></h3>
-      <h3><%= link_to "My GitHub", "https://github.com/erlaroche" %>
-      <h3><%= link_to "My LinkedIn", "http://www.linkedin.com/pub/emma-laroche/3a/111/8b9" %>
+  <div data-stellar-ratio = ".75">
+    <div class = "parallax">
+      <div class = "large-12 medium-6 small- 10 small-centered columns">
+        <h1><%= @resume[:name] %></h1>
+        <h3><%= @resume[:email] %></h3>
+      </div>
     </div>
+  </div>
 
 
-    <div class = "large-12 medium-6 small- 10 small-centered columns">
-      <h3><%= @resume[:tech] %></h3>
+  <div class = "large-12 medium-6 small- 10 small-centered columns">
+    <div data-stellar-ratio = "2">
+      <div class = "parallax">
+        <h3><%= link_to "My GitHub", "https://github.com/erlaroche" %>
+        <h3><%= link_to "My LinkedIn", "http://www.linkedin.com/pub/emma-laroche/3a/111/8b9" %>
+        <h3><%= @resume[:tech] %></h3>
 
-      <li><%= @resume[:server] %></li>
+        <li><%= @resume[:server] %></li>
 
-      <li><%= @resume[:client] %></li>
+        <li><%= @resume[:client] %></li>
 
 
-      <h3><%= @resume[:skills] %></h3>
+        <h3><%= @resume[:skills] %></h3>
 
-      <li><%= @resume[:skill_1] %>
-      </li>
+        <li><%= @resume[:skill_1] %>
+        </li>
 
-      <li><%= @resume[:skill_2] %></li>
+        <li><%= @resume[:skill_2] %></li>
+      </div>
+    </div>
   </div>
 
 
