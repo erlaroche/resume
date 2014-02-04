@@ -28,7 +28,7 @@ h3 {
   font-weight: bold;
   font-size: 35px;
   color: #000066;
-  text-shadow:0 0 10px rgba(0,0,0,0.7);
+  /*text-shadow:0 0 10px rgba(0,0,0,0.7);*/
 }
 
 h4 {
@@ -37,7 +37,7 @@ h4 {
   font-weight: bold;
   font-size: 30px;
   color: #000066;
-  text-shadow:0 0 10px rgba(0,0,0,0.7);
+  /*text-shadow:0 0 10px rgba(0,0,0,0.7);*/
 }
 
 li {
@@ -56,7 +56,7 @@ p {
 
 body {
  width: 100%;
- background-color: #99FFFF;
+ background-color: #CCFFFF;
  // background: image-url('blurred_background.jpg') no-repeat;
  min-height: 1280px;
  background-size: cover; //this resizes the background for any screen size
@@ -79,7 +79,7 @@ body {
  max-width: 1920px;
  position: relative;
  min-height: 100%;
- text-shadow:0 0 10px rgba(0,0,0,0.7);
+ /*text-shadow:0 0 10px rgba(0,0,0,0.7);*/
  background-position: 100% 0;
 }
 
